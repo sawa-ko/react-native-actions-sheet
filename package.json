@@ -1,5 +1,5 @@
 {
-  "name": "@kaname-png/react-native-actions-sheet",
+  "name": "@kaname-png/react-native-actions-sheet-fork",
   "version": "0.9.7",
   "description": "A Cross Platform(Android & iOS) ActionSheet with a robust and flexible api, native performance and zero dependency code for react native. Create anything you want inside ActionSheet.",
   "main": "./dist/index.js",
