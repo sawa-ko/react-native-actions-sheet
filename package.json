@@ -1,12 +1,21 @@
 {
-  "name": "react-native-actions-sheet",
+  "name": "@kaname-png/react-native-actions-sheet",
   "version": "0.9.7",
   "description": "A Cross Platform(Android & iOS) ActionSheet with a robust and flexible api, native performance and zero dependency code for react native. Create anything you want inside ActionSheet.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "index.ts",
+    "package.json",
+    "package-lock.json"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ammarahm-ed/react-native-actions-sheet.git"
+    "url": "git+https://github.com/sawa-ko/react-native-actions-sheet.git"
   },
   "keywords": [
     "bottom-animated",
@@ -32,12 +41,12 @@
     "bottom",
     "sheet"
   ],
-  "author": "ammarahm-ed",
+  "author": "sawa-ko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/issues/"
+    "url": "https://github.com/sawa-ko/react-native-actions-sheet/issues/"
   },
-  "homepage": "https://github.com/ammarahm-ed/react-native-actions-sheet",
+  "homepage": "https://github.com/sawa-ko/react-native-actions-sheet",
   "peerDependencies": {
     "react-native": "*",
     "react-native-gesture-handler": "*",
