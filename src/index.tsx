@@ -1369,7 +1369,7 @@ export default forwardRef<ActionSheetRef, ActionSheetProps>(
                 height: '100%',
               },
               pointerEvents: props?.backgroundInteractionEnabled
-                ? 'box-none'
+                ? 'none'
                 : 'auto',
             },
       [
@@ -1479,7 +1479,7 @@ export default forwardRef<ActionSheetRef, ActionSheetProps>(
                     onLayout={onRootViewLayout}
                     ref={rootViewContainerRef}
                     pointerEvents={
-                      props?.backgroundInteractionEnabled ? 'box-none' : 'auto'
+                      props?.backgroundInteractionEnabled ? 'none' : 'auto'
                     }
                     style={[
                       styles.parentContainer,
@@ -1514,7 +1514,7 @@ export default forwardRef<ActionSheetRef, ActionSheetProps>(
                     ) : null}
 
                     <Animated.View
-                      pointerEvents="box-none"
+                      pointerEvents="none"
                       style={{
                         borderTopRightRadius:
                           props.containerStyle?.borderTopRightRadius || 10,
